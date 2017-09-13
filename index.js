@@ -10,7 +10,7 @@ function johnLennonFacts(facts){
   var newFacts=[]
   let n=0;
   while (n < facts.length-1){
-    newFacts[n]=facts[0] + "!!!"
+    newFacts[n]=facts[n] + "!!!"
     n++
   }
   return newFacts
@@ -22,5 +22,5 @@ function iLoveTheBeatles(num){
     array.push("I love the Beatles!")
     num++
   } while (num<15)
-  return arr
+  return array
 }
